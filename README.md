@@ -11,3 +11,7 @@
 
 ## 개발 동기
  모방을 통해 실력 향상을 목표로한다. <br>
+
+
+## External URL
+[JIRA](https://perfectimitation.atlassian.net/jira/software/projects/PER/boards/1)
