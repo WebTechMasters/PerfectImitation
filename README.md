@@ -7,3 +7,7 @@
 ![](https://img.shields.io/badge/springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![](https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white)
 ![](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white)
+
+
+## 개발 동기
+ 모방을 통해 실력 향상을 목표로한다. <br>
