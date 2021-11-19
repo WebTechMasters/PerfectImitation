@@ -1,0 +1,35 @@
+<!-- SPA 데모 Origin 있어야함-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            window.addEventListener('load', route); // 처음에 Route 실행
+            window.addEventListener('popstate', route); // 뒤로 가기나 앞으로가기 할때마다 Route 실행
+            function link(newURL, event) { // 새로운 URL로 이동할떄 pushState 로 URL 변경및 히스토리 기록 후 Route 실행
+                event.preventDefault();
+                window.history.pushState(null, null, newURL);
+                route();
+            }
+            function route(url) {
+                if(location.pathname == '/minecraft') { // MAP은 나중에 사용
+                    document.getElementById('container').innerHTML = "마인크래프트";
+                } else if(location.pathname == '/other') {
+                    document.getElementById('container').innerHTML = "다른 사이트";
+                } else {
+                    document.getElementById('container').innerHTML = "Chicken";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <a href ="/minecraft" onclick = "link('/minecraft', event);">
+            /MINECRAFT
+        </a>
+        <br>
+        <a href ="/other" onclick = "link('/other', event);">
+            /OTHER
+        </a>
+        <div id = 'container'>
+        </div>
+    </body>
+</html>
