@@ -1,13 +1,13 @@
-package com.perfect_imitation.bamin;
+package com.perfectimitation.fakebaemin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BaminApplicationTests {
+class FakebaeminApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
